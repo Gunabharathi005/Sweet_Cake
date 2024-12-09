@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake </title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <!-- cdn icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Css file-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- header section  -->
+  <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="../image/logo.png" alt="" id="logoImage"></a>
+            <h1 class="logoName">Sweet Cake</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+  </header> <!--header section end here --> 
+
+  <!-- home section start here -->
+
+  <section class="home" id="#home">
+    <div class="homeContent">
+        <h2>delicious cake for everyone</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quos dicta veniam sed, voluptatem reiciendis officiis.</p>
+        <div class="home-btn">
+            <a href="#"><button>see more</button></a>
+        </div>
+    </div>
+  </section>
+
+  <!-- home section end here -->
+
+
+
+  <!-- product section start here -->
+
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>our exclusive products</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="img">
+                    <img src="../image/cake1.jpg" alt="cake">
+                </div>
+                <div class="product-content">
+                    <h3>chocolate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sit dolore corrupti.</p>
+                    <div class="orderNow">
+                        <button>order now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="img"  >
+                    <img src="../image/cake2.jpg" alt="cake">
+                </div>
+                <div class="product-content" >
+                    <h3>chocolate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sit dolore corrupti.</p>
+                    <div class="orderNow" >
+                        <button>order now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="img"  >
+                    <img src="../image/cake3.jpg" alt="cake">
+                </div>
+                <div class="product-content" >
+                    <h3>chocolate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo sit dolore corrupti.</p>
+                    <div class="orderNow">
+                        <button>order now</button>
+                    </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+  <!-- product section end here -->
+
+    <!-- blog section start here -->
+
+    <section class="blogs" id="blogs">
+        <div class="heading">
+            <h2>our exclusive Blogs</h2>
+        </div>
+        <div class="swiper blogs-row">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="img">
+                    <img src="../image/brownie.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>chocolate brownie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quis minima non doloremque asperiores excepturi, porro possimus facere, et
+                         atque nulla perferendis laborum similique saepe dolorem quasi qui autem molestiae fuga.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic quibusdam ipsum ut! 
+                            Fugit, tempora.</p>
+                     <a href="#blogs" class="btn">learn more</a>
+
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="img">
+                    <img src="../image/redvelvetcupcake.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>chocolate brownie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quis minima non doloremque asperiores excepturi, porro possimus facere, et
+                         atque nulla perferendis laborum similique saepe dolorem quasi qui autem molestiae fuga.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic quibusdam ipsum ut! 
+                            Fugit, tempora.</p>
+                     <a href="#blogs" class="btn">learn more</a>
+
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="img">
+                    <img src="../image/cup cake.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>chocolate brownie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quis minima non doloremque asperiores excepturi, porro possimus facere, et
+                         atque nulla perferendis laborum similique saepe dolorem quasi qui autem molestiae fuga.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic quibusdam ipsum ut! 
+                            Fugit, tempora.</p>
+                     <a href="#blogs" class="btn">learn more</a>
+
+                </div>
+            </div> 
+         </div>
+        <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- blog section start here -->
+
+    <!-- newsletter section start here -->
+     <section class="newsletter">
+        <form action="">
+            <h3>subscribe for latest update</h3>
+            <input type="email" name="" placeholder="enter your email"  class="box">
+            <input type="button" value="subscribe" class="box2">
+         </form>
+     </section>
+
+    <!-- newsletter section end here -->
+
+     <!-- review section start here -->
+
+     <section class="review" id="review">
+        <div class="heading">
+            <h2>Client review</h2>
+        </div>
+        <div class="swiper review-row">
+           <div class="swiper-wrapper">
+            <div class="swiper-slide  box">
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos voluptate cu
+                        m. Unde, obcaecati odit.</p>
+                </div>
+                <div class="client-info">
+                    <div class="img">
+                        <img src="../image/cl1.jpeg" alt="">
+                    </div>
+                    <div class="clientName">
+                        <h3>Emily</h3>
+                        <p>UI / UX designer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide  box">
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos voluptate cu
+                        m. Unde, obcaecati odit.</p>
+                </div>
+                <div class="client-info">
+                    <div class="img">
+                        <img src="../image/cl2.jpg" alt="">
+                    </div>
+                    <div class="clientName">
+                        <h3>Hardy David</h3>
+                        <p>UI / UX designer</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="swiper-slide  box">
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos voluptate cu
+                        m. Unde, obcaecati odit.</p>
+                </div>
+                <div class="client-info">
+                    <div class="img">
+                        <img src="../image/cl3.jpg" alt="">
+                    </div>
+                    <div class="clientName">
+                        <h3>Henry</h3>
+                        <p>Actor</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide  box">
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos voluptate cu
+                        m. Unde, obcaecati odit.</p>
+                </div>
+                <div class="client-info">
+                    <div class="img">
+                        <img src="../image/cl7.png" alt="">
+                    </div>
+                    <div class="clientName">
+                        <h3>Dahlia</h3>
+                        <p>Architect</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide  box">
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos voluptate cu
+                        m. Unde, obcaecati odit.</p>
+                </div>
+                <div class="client-info">
+                    <div class="img">
+                        <img src="../image/cl6.png" alt="">
+                    </div>
+                    <div class="clientName">
+                        <h3>Diana</h3>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide  box">
+                <div class="client-review">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos voluptate cu
+                        m. Unde, obcaecati odit.</p>
+                </div>
+                <div class="client-info">
+                    <div class="img">
+                        <img src="../image/cl5.jpg" alt="">
+                    </div>
+                    <div class="clientName">
+                        <h3>george</h3>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+           </div>
+        </div>
+     </section>
+
+     <!-- review section end here -->
+
+     <!-- footer section start hear -->
+     <footer class="footer" id="footer">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href=""><img src="../image/logo.png" alt=""></a>
+                      <h1 class="logoName">Sweet Cake</h1>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed odio cumque?</p>
+
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Product</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Blogs</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+
+            </div>
+
+            <div class="box">
+                <h3>Extre link</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i>Account info</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>order item</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>payment method</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+91 12222 34444</a>
+                <a href="#"><i class="fas fa-envelope"></i>sweetcake@gmail.com</a>
+    
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+     </footer>
+
+     <!-- footer section start hear -->
+
+
+
+
+
+  
+
+ <!-- swiper js link -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--JS file-->
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
